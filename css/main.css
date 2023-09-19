@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond:wght@300&family=Lato:ital,wght@0,100;0,300;1,100&family=Noto+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Cormorant+Garamond:wght@300&family=Lato:ital,wght@0,100;0,300;1,100&family=Noto+Sans:wght@100&family=Open+Sans:ital,wght@1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap');
+
+
+:root {
+  /* Brand Colors */
+  --belmont-blue-primary: #001d54;
+  --belmont-red-accent: #b21029;
+  --sky-blue: #6ab3e7;
+  --lt-grey-bk: #f5f5f5;
+  --dk-grey-tx: #3d3d3d;
+
+  /* Accent Colors */
+  --tower-red: #862633;
+  --admissions-blue: #1d4289;
+  --hope-blue: #2874af;
+  --quad-green: #286140;
+  --lawn-green: #4eb57c;
+  --daffodil-yellow: #f2c75c;
+  --curb-teal: #66ccc9;
+
+  /* Header Height */
+  --header-desktop-height: 175px;
+  --header-mobile-height: 120px;
+
+  /* Footer Height */
+  --footer-desktop-height: 250px;
+  --footer-mobile-height: 200px;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.main {
+  background-color: var(--lt-grey-bk);
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--header-desktop-height);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.main section {
+  margin: 50px 0px;
+  width: 85%;
+  max-width: 1400px;
+}
+
+.bkgd-logo {
+  position: absolute;
+    height: 1000px;
+    top: 100px;
+    right: -20%;
+    z-index: 1;
+
+}
+
+.flex-section {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-centered {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.accent-font {
+  font-weight: 900;
+  font-family: "Noto Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.heading-h1 {
+  margin-bottom: 10px;
+  color: var(--belmont-blue-primary);
+  font-weight: 900;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.8em;
+  text-transform: uppercase;
+}
+
+.serif-content-text {
+  color: var(--belmont-blue-primary);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3em;
+  line-height: 2.1em;
+}
+
+.sans-content-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 2.1em;
+}
+
+.full-section {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-top: 150px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

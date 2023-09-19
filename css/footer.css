@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  background-color: var(--belmont-red-accent);
+  justify-content: center;
+  gap: 50px;
+  padding: 30px 0px;
+}
+
+.footer-right {
+  gap: 45px;
+}
+
+.belmont-logo {
+  height: 220px;
+}
+
+.footer-b4b-logo {
+  width: 800px;
+}
+
+.footer-links-container {
+  gap: 30px;
+}
+
+.footer-link {
+  padding: 15px 30px;
+  color: var(--belmont-red-accent);
+  background-color: white;
+  border-radius: 50px;
+  font-weight: 900;
+  font-family: "Noto Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .belmont-logo {
+    height: 180px;
+  }
+
+  .footer-right {
+    gap: 15px;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-b4b-logo {
+    max-width: 400px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .belmont-logo {
+    height: 180px;
+  }
+
+  .footer-right {
+    gap: 15px;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-b4b-logo {
+    width: 500px;
+  }
+
+  .footer-link {
+    text-align: center;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+  }
+
+  .footer-b4b-logo {
+    width: 600px;
+  }
+
+  .footer-right {
+    gap: 25px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .footer-links-container {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .footer-b4b-logo {
+    width: 800px;
+  }
+}
